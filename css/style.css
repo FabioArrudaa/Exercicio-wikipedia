@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+.header {
+  margin: 25px 25px 0px 25px;
+  padding: 5px 15px;
+}
+.header form {
+  display: inline-flex;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  padding: 5px 25px;
+}
+.header input {
+  width: 400px;
+  height: 30px;
+}
+
+.header section {
+  display: inline-flex;
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  padding: 0px;
+}
+
+.header section p {
+  margin: 10px;
+  padding: 0px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 13pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menu {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+}
+
+/* Estilizando o resumo (summary) */
+summary {
+  font-weight: bold;
+  background-color: #eee;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilizando o ícone dentro do summary */
+.icon {
+  margin-right: 15px;
+}
+
+/* Estilizando o details quando aberto */
+details[open] {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Estilizando o conteúdo dentro de details */
+details h1 {
+  margin: px;
+  color: #333;
+}
+.content {
+  margin: 25px 25px 25px 25px;
+}
+
+p {
+  margin: 10px 30px;
+  font-size: 13pt;
+}
+
+hr {
+  margin: 0px 20px;
+}
+
+h2 {
+  margin: 5px 25px;
+  padding: 5px;
+  color: #333;
+}
+ol {
+  margin: 15px 25px;
+}
+.inicial-content {
+  display: flex;
+  grid-template-areas: "a b";
+}
+
+.addiction-image {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+.addiction-image img {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
